@@ -5,7 +5,7 @@ class Adam:
 
     def jas_artu(self):
         self.jas += 1
-        print(f"{self.at} qazir {self.jas} jasta")
+        print(f"{self.jas} qazir {self.jas} jasta")
 
 a1 = Adam("Dias", 20)
 a1.jas_artu()

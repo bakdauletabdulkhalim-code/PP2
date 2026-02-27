@@ -1,6 +1,9 @@
-p = int(input())
-q = []
-for i in range(p):
-    q.append()
-for s in sorted(set(q)):
-    print(s, q.index(s)+1)
+n = int(input())
+counter = []
+if n <= 1:
+    pass
+else:
+    for i in range(2, n):
+        if n % i == 0:
+            counter.append(i)
+    print(counter)

@@ -161,11 +161,3 @@
 # print((x1, y1))
 # print((x2, y2))
 # print(f"{dist:.2f}")
-n, m = map(int, input().split())
-if n < m:
-    print(m - n)
-if n == m:
-    print(n - m)
-else:
-    print("Insufficient Funds")
-    

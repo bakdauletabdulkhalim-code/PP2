@@ -4,7 +4,7 @@ class Kitap:
         self.bagasy = bagasy
 
     def __str__(self):
-        return f"Kitap: {self.at}, Bagasy: {self.bagasy}"
+        return f"Kitap: {self.aty}, Bagasy: {self.bagasy}"
 
 k1 = Kitap("Python", 5000)
 print(k1)
