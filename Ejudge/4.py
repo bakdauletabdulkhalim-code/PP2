@@ -74,17 +74,36 @@
 # for number in even_numbers(n):
 #     counter.append(str(number))
 # print(",".join(counter))
-example 2
-def even_numbers(n):
-    for i in range(0, n + 1, 2):
-        yield i
+# example 2
+# def even_numbers(n):
+#     for i in range(0, n + 1, 2):
+#         yield i
 
-n = int(input())
+# n = int(input())
 
-first = True
-for num in even_numbers(n):
-    if not first:
-        print(",", end="")
-    print(num, end="")
-    first = False
+# first = True
+# for num in even_numbers(n):
+#     if not first:
+#         print(",", end="")
+#     print(num, end="")
+#     first = False
+# 411
+# import json
+
+# def patch_json(source, patch):
+#     for key, value in patch.items():
+#         if value is None:
+#             source.pop(key, None)
+#         elif isinstance(value, dict) and isinstance(source.get(key), dict):
+#             patch_json(source[key], value)
+#         else:
+#             source[key] = value
+#     return source
+
+# source = json.loads(input())
+# patch = json.loads(input())
+
+# result = patch_json(source, patch)
+
+# print(json.dumps(result, sort_keys=True, separators=(",", ":")))
     

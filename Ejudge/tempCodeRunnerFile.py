@@ -1,9 +1,6 @@
-n = int(input())
-counter = []
-if n <= 1:
-    pass
-else:
-    for i in range(2, n):
-        if n % i == 0:
-            counter.append(i)
-    print(counter)
+n = input()
+# counter = []
+# for i in n:
+#     if i.isdigit:
+#         counter.append(i)
+# print(counter)

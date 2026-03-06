@@ -35,3 +35,5 @@
 #     print(min(natural))
 # else:
 #     print("No natural numbers")
+
+    
