@@ -1,0 +1,5 @@
+Python Practice 6
+File handling example
+Learning Python is fun
+This line was appended later
+Another appended line

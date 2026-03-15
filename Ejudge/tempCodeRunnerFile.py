@@ -1,6 +1,5 @@
+import re
 n = input()
-# counter = []
-# for i in n:
-#     if i.isdigit:
-#         counter.append(i)
-# print(counter)
+m = input()
+r = re.findall(m, n)
+print(len(r))

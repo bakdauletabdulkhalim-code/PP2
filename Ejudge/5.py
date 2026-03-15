@@ -195,11 +195,11 @@
 # else:
 #     print("No")
 # 5
-n = int(input())
-m = list(map(int, input().split()))
-for i in m:
-    if i < 0:
-        print("No")
-        break
-else:
-    print("Yes")
+# n = int(input())
+# m = list(map(int, input().split()))
+# for i in m:
+#     if i < 0:
+#         print("No")
+#         break
+# else:
+#     print("Yes")

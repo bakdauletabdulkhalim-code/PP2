@@ -35,5 +35,29 @@
 #     print(min(natural))
 # else:
 #     print("No natural numbers")
+1
+# class Person:
+#     name = "Mark"
+#     name1 = "Sacha"
+#     age = 27
+# person1 = Person()
+# person2 = Person()
+# print(person1.name)
+# print(person2.name1)
 
-    
+# x1, y1 = map(int, input().split())
+# x2, y2 = map(int, input().split())
+# x3, y3 = map(int, input().split())
+# dist1 = ((x2-x1)**2+(y2-y1)**2)**0.5
+# dist2 = ((x3-x2)**2+(y3-y2)**2)**0.5
+# print(dist1+dist)
+
+# from datetime import datetime
+# start = datetime.strptime(input(), "%Y-%m-%d")
+# date = True
+# while date:
+#     try:
+#         d = datetime.strptime(input(), "%Y-%m-%d")
+#         print((d-start).days)
+#     except:
+#         break
