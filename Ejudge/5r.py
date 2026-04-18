@@ -125,3 +125,11 @@
 # literal = re.escape(pattern)
 # match = re.findall(literal, n)
 # print(len(match))
+
+n = int(input())
+m = []
+for i in range(n):
+    m.append(input())
+for j in m:
+    print(j)
+    
