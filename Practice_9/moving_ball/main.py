@@ -13,10 +13,10 @@ circle_y = 275
 color_red = (255,0,0)
 
 radius = 20
-speed = 25
+speed = 5
 
 clock = pygame.time.Clock()
-FPS = 30
+FPS = 60
 
 runnig = True
 while runnig:
