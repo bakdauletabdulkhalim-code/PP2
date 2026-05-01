@@ -83,6 +83,6 @@ while running:
         pygame.draw.circle(canvas, WHITE, pygame.mouse.get_pos(), 15)
 
     pygame.display.update() 
-    clock.tick(400)  # FPS (жылдамдық)
+    clock.tick(450)  # FPS (жылдамдық)
 
 pygame.quit() 
